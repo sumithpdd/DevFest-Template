@@ -14,7 +14,7 @@ const LocationSection = () => (
                 <p className='text-xl lg:text-left lg:pt-0'>We're excited to announce that DevFest {process.env.REACT_APP_CHAPTER_NAME} will take place at <span className="font-semibold">SOME GREAT VENUE.</span></p>
                 
                 <a href="https://www.google.com/maps" className='hover:text-Blue500 lg:text-left'>
-                    <p className='text-lg'>VENUE<br />
+                    <p className='text-lg'>KCL<br />
                    ADDRESS<br />
                    ADDRESS<br />
                    , YOUR STATE YOUR ZIP

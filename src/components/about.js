@@ -5,8 +5,8 @@ const About = () => (
     <section className='my-20 flex justify-center'>
         <div className='my-2 text-center m-4 sm:w-3/4 border-solid border-4 border-Yellow500 rounded-3xl p-5 sm:p-10 grid grid-cols-1  lg:grid-cols-2'>
             <div className=''>
-                <div className='aspect-w-16 aspect-h-9'>
-                    <iframe src="https://www.youtube.com/embed/wgD7-gEK9_Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className='z-0'></iframe>
+                <div className='aspect-w-16 aspect-h-9'>                
+                    <iframe src="https://www.youtube.com/embed/Gou_5qTPzwI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className='z-0'></iframe>
                 </div>
             </div>
             <div>

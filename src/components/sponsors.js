@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
-
+import CodeMagicLogo from '../assets/sponsors/Google_2015_logo.png';
 
 
 const SponsorLogos = () => (
@@ -20,8 +20,8 @@ const SponsorLogos = () => (
         <section className='my-20'>
             <h3 className='my-10 font-semibold'>Gold</h3>
                 <div className='flex w-full h-full justify-center'>
-                    <a href="https://www.google.com">
-                        <img src={GoogleLogo} alt="Logo" className="object-contain h-48 w-full"></img>
+                    <a href="https://codemagic.io">
+                        <img src={CodeMagicLogo} alt="Logo" className="object-contain h-48 w-full"></img>
                     </a>
                 </div>
         </section>

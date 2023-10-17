@@ -17,7 +17,7 @@ const Header = () => (
                 <Navbar />
             </div>
             <div className='hidden lg:block'>
-                <a href="https://gdg.community.dev/" className="text-white bg-Red500 hover:bg-Red500 hover:text-white rounded-full text-md px-6 py-4 mx-2">Register</a>
+                <a href="https://www.eventbrite.co.uk/e/devfest-london-2023-tickets-730641968797" className="text-white bg-Red500 hover:bg-Red500 hover:text-white rounded-full text-md px-6 py-4 mx-2">Register</a>
             </div>
             <div className=''>
                 <HamburgerMenu />
