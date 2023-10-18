@@ -53,11 +53,11 @@ const SponsorLogos = () => (
                         <img src={GDSCLogo} alt="GDSC" className="object-contain h-36 w-full px-2"></img>
                     </a>
                 </div>
-                {/*<div>*/}
-                {/*    <a href="https://www.linkedin.com/company/gdg-academy/">*/}
-                {/*        <img src={GDGAcademyLogo} alt="GDG ACADEMY" className="object-contain h-full w-full px-2"></img>*/}
-                {/*    </a>*/}
-                {/*</div>*/}
+                <div>
+                    <a href="https://www.linkedin.com/company/gdg-academy/">
+                        <img src={GDGAcademyLogo} alt="GDG ACADEMY" className="object-contain h-full w-full px-2"></img>
+                    </a>
+                </div>
             </div> 
         </section>
         <div className='m-16'>
