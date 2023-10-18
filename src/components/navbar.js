@@ -23,7 +23,9 @@ const Navbar = () => (
             <li>
                 <Link to='/code-of-conduct' className='text-white'>Code of Conduct</Link> 
             </li>
-        
+            <li>
+                <Link to='/photos' className='text-white'>photos</Link> 
+            </li>
         </ul>
     </div>
 </div> 

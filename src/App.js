@@ -10,6 +10,7 @@ import Location from './pages/location.js'
 import Policy from './pages/code-conduct-policy.js';
 import FAQ from './pages/faq.js';
 import Volunteer from './pages/volunteer.js';
+import PhotoAlbum from './pages/photo-album.js'
 import ScrollToTop from "./components/scrolltotop.js";
 
 
@@ -26,7 +27,8 @@ function App() {
                 <Route path="/schedule" element={<Schedule />} />
                 <Route path="/location" element={<Location />} />
                 <Route path="/code-of-conduct" element={<Policy />} />
-                <Route path="/faq" element={<FAQ />} />  
+                <Route path="/faq" element={<FAQ />} /> 
+                <Route path='/photos' element={<PhotoAlbum/>} />
                 <Route path="/volunteer" element={<Volunteer />} />  
               </Routes>
             </ScrollToTop>
