@@ -14,18 +14,18 @@ const Navbar = () => (
             <li>
                 <Link to='/sponsors' className='text-white'>Sponsors</Link> 
             </li>
-            <li>
-                <Link to='/schedule' className='text-white'>Schedule</Link> 
-            </li>
+            {/*<li>*/}
+            {/*    <Link to='/schedule' className='text-white'>Schedule</Link> */}
+            {/*</li>*/}
             <li>
                 <Link to='/location' className='text-white'>Location</Link> 
             </li>
             <li>
                 <Link to='/code-of-conduct' className='text-white'>Code of Conduct</Link> 
             </li>
-            <li>
-                <Link to='/photos' className='text-white'>photos</Link> 
-            </li>
+            {/*<li>*/}
+            {/*    <Link to='/photos' className='text-white'>photos</Link> */}
+            {/*</li>*/}
         </ul>
     </div>
 </div> 

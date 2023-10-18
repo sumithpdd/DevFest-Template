@@ -6,7 +6,7 @@ const Speakers = () => (
     <div className='w-11/12 mx-auto my-10 grid grid-cols-1 lg:grid-cols-2'>
         <div className='px-5 my-5'>
             <div className='aspect-w-16 aspect-h-9'>
-                <iframe src="https://www.youtube.com/embed/S6w5C9FJlIM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className='z-0'></iframe>
+                <iframe src="https://www.youtube.com/embed/S6w5C9FJlIM?autoplay=1&mute=1&cc_load_policy=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className='z-0'></iframe>
             </div>
         </div>
         <div className='px-5 my-5'>

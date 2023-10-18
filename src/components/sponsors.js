@@ -1,66 +1,63 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
-import CodeMagicLogo from '../assets/sponsors/Google_2015_logo.png';
-
+import CodeMagicLogo from '../assets/sponsors/codemagic-logo.svg';
+import TransparentLogo from '../assets/sponsors/transparent-logo.jpeg';
+import BumbleLogo from '../assets/sponsors/bumble-logo.png';
+import WTMLogo from '../assets/sponsors/WTM-logo.png';
+import GDSCLogo from '../assets/sponsors/GDSC-Logo.png';
+import GDGAcademyLogo from '../assets/sponsors/GDGAcademy-logo.png';
 
 const SponsorLogos = () => (
 
     <div className='text-center my-20'>
         <h2>Sponsors</h2>
-        <p>Thank you to our sponsors for their generous support.</p>
+        <p className='my-20'>Thank you to our exceptional sponsors for your generous and unwavering support towards the tech community. Your contributions are fueling innovation, fostering collaboration, and empowering future technology leaders. We deeply appreciate your commitment to driving progress and excellence within our vibrant tech ecosystem.</p>
 
         <section className='my-20'>
-            <h3 className='my-10 font-semibold'>Platinum</h3>
-            <div className='flex w-full h-full px-10 justify-center'>
-                <img src={GoogleLogo} alt="Google Logo" className="object-contain h-36 w-full"></img>
-            </div>
-        </section>
-        
-        <section className='my-20'>
-            <h3 className='my-10 font-semibold'>Gold</h3>
-                <div className='flex w-full h-full justify-center'>
-                    <a href="https://codemagic.io">
-                        <img src={CodeMagicLogo} alt="Logo" className="object-contain h-48 w-full"></img>
-                    </a>
-                </div>
-        </section>
-        
-        {/*
-        <section className='my-20'>
-            <h3 className='my-10 font-semibold'>Silver</h3>
-            <div>
-                
-            </div>
-        </section>
-        <section className='my-20'>
-            <h3 className='my-10 font-semibold'>Bronze</h3>
-                <div>
-                    
-                </div>
-        </section>
-*/}
-        <section className='my-20'>
-            <h3 className='my-10 font-semibold'>Startup</h3>    
+            <h2 className='my-10 font-semibold'>Gold</h2>
+            {/*<div className='flex w-full h-full justify-center'>*/}
+            {/*    <a href="https://bumble.com/">*/}
+            {/*        <img src={BumbleLogo} alt="CodeMagic Logo" width="600px"  className="object-contain h-48"></img>*/}
+            {/*    </a>*/}
+            {/*</div>*/}
             <div className='flex w-full h-full justify-center'>
-                <a href="https://www.google.com">
-                    <img src={GoogleLogo} alt=" Logo" className="object-contain h-36 w-full"></img>
+                <a href="https://codemagic.io">
+                    <img src={CodeMagicLogo} alt="CodeMagic Logo" width="600px"  className="object-contain h-48"></img>
+                </a>
+            </div>
+        </section>
+        <section className='my-20'>
+            <h2 className='my-10 font-semibold'>Bronze</h2>
+            <div className='flex w-full h-full px-10 justify-center'>
+                <a href="https://www.heytransparent.io/">
+                <img src={TransparentLogo} alt="Transparent Logo"  width="700px" height="10rem" className="object-contain"></img>
                 </a>
             </div>
         </section>
         <section>
-            <h3 className='my-10 font-semibold'>Supporters</h3>
+            <h3 className='my-10 font-semibold'>Community Partners</h3>
             <div className='w-1/2 grid grid-cols-1 md:grid-cols-2 mx-auto'>
                 <div className=''>
-                    <a href="https://www.google.com">
-                    <img src={GoogleLogo} alt=" Logo" className="object-contain h-36 w-full px-2"></img>
+                    <a href="https://developers.google.com/womentechmakers">
+                    <img src={WTMLogo} alt="WTM Logo" className="object-contain h-36 w-full px-2"></img>
                     </a>
                 </div>
                 <div>
                     <a href="https://www.google.com">
                     <img src={GoogleLogo} alt="Jetbrains" className="object-contain h-36 w-full px-2"></img>
                     </a>
-                </div> 
+                </div>
+                <div>
+                    <a href="https://developers.google.com/community/gdsc">
+                        <img src={GDSCLogo} alt="GDSC" className="object-contain h-36 w-full px-2"></img>
+                    </a>
+                </div>
+                {/*<div>*/}
+                {/*    <a href="https://www.linkedin.com/company/gdg-academy/">*/}
+                {/*        <img src={GDGAcademyLogo} alt="GDG ACADEMY" className="object-contain h-full w-full px-2"></img>*/}
+                {/*    </a>*/}
+                {/*</div>*/}
             </div> 
         </section>
         <div className='m-16'>

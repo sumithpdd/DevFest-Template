@@ -1,5 +1,5 @@
 import React from 'react';
-import gif from '../assets/DevFest_SaveTheDate_01.gif';
+import gif from '../assets/Devfest-London-2023.gif';
 
 const Hero = () => (
  
