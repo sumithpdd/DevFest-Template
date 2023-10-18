@@ -30,7 +30,7 @@ useEffect(() => {
                             return (
                                 <div className="responsive" key={data.public_id}>
                                     <div className="img">
-                                        <a target="_blank" el="noreferrer" href={`https://res.cloudinary.com/${process.env.REACT_APP_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/v1697634463/${data.public_id}.${data.format}`}>
+                                        <a target="_blank" rel="noreferrer" href={`https://res.cloudinary.com/${process.env.REACT_APP_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/v1697634463/${data.public_id}.${data.format}`}>
                                             <Image publicId={data.public_id}>
                                                 <Transformation
                                                     crop="scale"
