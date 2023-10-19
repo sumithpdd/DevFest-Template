@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
 import CodeMagicLogo from '../assets/sponsors/codemagic-logo.svg';
 import TransparentLogo from '../assets/sponsors/transparent-logo.jpeg';
-import BumbleLogo from '../assets/sponsors/bumble-logo.png';
+// import BumbleLogo from '../assets/sponsors/bumble-logo.png';
 import WTMLogo from '../assets/sponsors/WTM-logo.png';
 import GDSCLogo from '../assets/sponsors/GDSC-Logo.png';
 import GDGAcademyLogo from '../assets/sponsors/GDGAcademy-logo.png';
