@@ -27,7 +27,6 @@
     h3 {
         @apply text-2xl;
         @apply my-2;
-
     }
     a {
         @apply hover:text-LightBlue;
@@ -35,7 +34,44 @@
     p {
         @apply my-5;
     }
-    
+    /* New Styles for the Session Component */
+    .session-component {
+        @apply bg-gray-100;   /* Slight gray background */
+        @apply border border-gray-300;   /* Border for the component */
+        @apply shadow-lg;    /* Shadow to make it stand out */
+        @apply rounded-md;   /* Rounded corners for a smoother look */
+    }
+    .talk-pill {
+        @apply px-5;        /* Increase horizontal padding */
+        @apply py-2;        /* Vertical padding */
+        @apply bg-blue-500; /* Background color */
+        @apply text-white;  /* Text color */
+        @apply font-semibold; /* Font weight */
+        @apply rounded-full;  /* Full border radius for pill shape */
+        @apply shadow;        /* Slight shadow for depth */
+        @apply hover:bg-blue-600;  /* Darker shade on hover */
+        @apply transition-all;    /* Smooth transition for hover effect */
+    }
+    .workshop-pill {
+        @apply px-5;
+        /* Increase horizontal padding */
+        @apply py-2;
+        /* Vertical padding */
+        @apply bg-green-500;
+        /* Background color */
+        @apply text-white;
+        /* Text color */
+        @apply font-semibold;
+        /* Font weight */
+        @apply rounded-full;
+        /* Full border radius for pill shape */
+        @apply shadow;
+        /* Slight shadow for depth */
+        @apply hover:bg-green-600;
+        /* Darker shade on hover */
+        @apply transition-all;
+        /* Smooth transition for hover effect */
+    }
 }
 
 @tailwind utilities;

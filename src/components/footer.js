@@ -58,9 +58,9 @@ const Footer = () => (
                     <li>
                         <Link to='/code-of-conduct' className='text-white'>Code of Conduct</Link> 
                     </li>
-                    <li>
-                        <Link to='/faq' className='text-white'>FAQ</Link> 
-                    </li>
+                    {/*<li>*/}
+                    {/*    <Link to='/faq' className='text-white'>FAQ</Link> */}
+                    {/*</li>*/}
                     <li>
                         <Link to ='/volunteer' className='text-white'>Volunteer</Link>
                     </li>

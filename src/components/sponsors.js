@@ -7,6 +7,7 @@ import TransparentLogo from '../assets/sponsors/transparent-logo.jpeg';
 import WTMLogo from '../assets/sponsors/WTM-logo.png';
 import GDSCLogo from '../assets/sponsors/GDSC-Logo.png';
 import GDGAcademyLogo from '../assets/sponsors/GDGAcademy-logo.png';
+import FlutterLNDLogo from '../assets/sponsors/Flutter-Logo.png'
 
 const SponsorLogos = () => (
 
@@ -41,6 +42,11 @@ const SponsorLogos = () => (
                 <div className=''>
                     <a href="https://developers.google.com/womentechmakers">
                     <img src={WTMLogo} alt="WTM Logo" className="object-contain h-36 w-full px-2"></img>
+                    </a>
+                </div>
+                <div className=''>
+                    <a href="https://www.meetup.com/flutterldn/">
+                        <img src={FlutterLNDLogo} alt="Flutter London" className="object-contain h-36 w-full px-2"></img>
                     </a>
                 </div>
                 <div>

@@ -12,6 +12,7 @@ import FAQ from './pages/faq.js';
 import Volunteer from './pages/volunteer.js';
 import PhotoAlbum from './pages/photo-album.js'
 import ScrollToTop from "./components/scrolltotop.js";
+import SessionDetails from "./components/sessions";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/speakers" element={<Speakers />} />
                 <Route path="/sponsors" element={<Sponsors />} />
                 <Route path="/schedule" element={<Schedule />} />
+                <Route path="/sessions" element={<SessionDetails />} />
                 <Route path="/location" element={<Location />} />
                 <Route path="/code-of-conduct" element={<Policy />} />
                 <Route path="/faq" element={<FAQ />} /> 
