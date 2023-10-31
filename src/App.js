@@ -13,6 +13,7 @@ import Volunteer from './pages/volunteer.js';
 import PhotoAlbum from './pages/photo-album.js'
 import ScrollToTop from "./components/scrolltotop.js";
 import SessionDetails from "./components/sessions";
+import PrivacyPolicy from './pages/privacy-policy.js';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
                 <Route path="/code-of-conduct" element={<Policy />} />
                 <Route path="/faq" element={<FAQ />} /> 
                 <Route path='/photos' element={<PhotoAlbum/>} />
-                <Route path="/volunteer" element={<Volunteer />} />  
+                <Route path="/volunteer" element={<Volunteer />} /> 
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />   
               </Routes>
             </ScrollToTop>
           <Footer />
