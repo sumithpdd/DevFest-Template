@@ -25,7 +25,7 @@ const SpeakerProfiles = () => {
 
     return(
         <section className="text-center bg-LightBlue py-10">
-        <h2 className="my-10">Featured Speakers</h2>
+        <h2 className="my-10">Speakers</h2>
             <div className='w-11/12 mx-auto'>
                 {speakers.length > 0 && (
                     <div className='flex flex-wrap justify-center'>

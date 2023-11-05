@@ -2,12 +2,13 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
 import CodeMagicLogo from '../assets/sponsors/codemagic-logo.svg';
-// import TransparentLogo from '../assets/sponsors/transparent-logo.jpeg';
+import KCLTechLogo from '../assets/sponsors/KCLTechsLogo.png';
 // import BumbleLogo from '../assets/sponsors/bumble-logo.png';
 import WTMLogo from '../assets/sponsors/WTM-logo.png';
 import GDSCLogo from '../assets/sponsors/GDSC-Logo.png';
 import GDGAcademyLogo from '../assets/sponsors/GDGAcademy-logo.png';
 import FlutterLNDLogo from '../assets/sponsors/Flutter-Logo.png'
+import ChatGDGLogo from '../assets/sponsors/chatgdg.png'
 
 const SponsorLogos = () => (
 
@@ -28,14 +29,14 @@ const SponsorLogos = () => (
                 </a>
             </div>
         </section>
-        {/*<section className='my-20'>*/}
-        {/*    <h2 className='my-10 font-semibold'>Bronze</h2>*/}
-        {/*    <div className='flex w-full h-full px-10 justify-center'>*/}
-        {/*        <a href="https://www.heytransparent.io/">*/}
-        {/*        <img src={TransparentLogo} alt="Transparent Logo"  width="700px" height="10rem" className="object-contain"></img>*/}
-        {/*        </a>*/}
-        {/*    </div>*/}
-        {/*</section>*/}
+        <section className='my-20'>
+            <h2 className='my-10 font-semibold'>Host</h2>
+            <div className='flex w-full h-full px-10 justify-center'>
+                <a href="https://www.kcltech.co.uk/">
+                <img src={KCLTechLogo} alt="KCL Tech Logo"  width="700px" height="10rem" className="object-contain"></img>
+                </a>
+            </div>
+        </section>
         <section>
             <h3 className='my-10 font-semibold'>Community Partners</h3>
             <div className='w-1/2 grid grid-cols-1 md:grid-cols-2 mx-auto'>
@@ -62,6 +63,11 @@ const SponsorLogos = () => (
                 <div>
                     <a href="https://www.linkedin.com/company/gdg-academy/">
                         <img src={GDGAcademyLogo} alt="GDG ACADEMY" className="object-contain h-full w-full px-2"></img>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/company/chatgdg/">
+                        <img src={ChatGDGLogo} alt="Chat GDG" className="object-contain h-full w-full px-2"></img>
                     </a>
                 </div>
             </div> 
