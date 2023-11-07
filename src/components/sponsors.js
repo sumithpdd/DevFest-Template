@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
 import CodeMagicLogo from '../assets/sponsors/codemagic-logo.svg';
 import KCLTechLogo from '../assets/sponsors/KCLTechsLogo.png';
-// import BumbleLogo from '../assets/sponsors/bumble-logo.png';
+import BumbleLogo from '../assets/sponsors/Bumble-Inc.jpeg';
 import WTMLogo from '../assets/sponsors/WTM-logo.png';
 import GDSCLogo from '../assets/sponsors/GDSC-Logo.png';
 import GDGAcademyLogo from '../assets/sponsors/GDGAcademy-logo.png';
@@ -18,14 +18,14 @@ const SponsorLogos = () => (
 
         <section className='my-20'>
             <h2 className='my-10 font-semibold'>Gold</h2>
-            {/*<div className='flex w-full h-full justify-center'>*/}
-            {/*    <a href="https://bumble.com/">*/}
-            {/*        <img src={BumbleLogo} alt="CodeMagic Logo" width="600px"  className="object-contain h-48"></img>*/}
-            {/*    </a>*/}
-            {/*</div>*/}
             <div className='flex w-full h-full justify-center'>
                 <a href="https://codemagic.io">
                     <img src={CodeMagicLogo} alt="CodeMagic Logo" width="600px"  className="object-contain h-48"></img>
+                </a>
+            </div>
+            <div className='flex w-full h-full justify-center'>
+                <a href="https://bumble.com/">
+                    <img src={BumbleLogo} alt="CodeMagic Logo" width="600px"  className="object-contain h-48"></img>
                 </a>
             </div>
         </section>
