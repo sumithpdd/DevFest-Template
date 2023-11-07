@@ -1,21 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 const Sessions = () => {
-    const [sessions, setSessions] = useState([]);
-
-    const fetchData = () => {
-        fetch('https://sessionize.com/api/v2/fvji6esg/view/Sessions')
-            .then(response => response.json())
-            .then(data => {
-                if(data && data[0] && data[0].sessions) {
-                    setSessions(data[0].sessions);
-                }
-            });
-    };
-
-    useEffect(() => {
-        fetchData();
-    }, []);
+    // const [sessions, setSessions] = useState([]);
+    //
+    // const fetchData = () => {
+    //     fetch('https://sessionize.com/api/v2/fvji6esg/view/Sessions')
+    //         .then(response => response.json())
+    //         .then(data => {
+    //             if(data && data[0] && data[0].sessions) {
+    //                 setSessions(data[0].sessions);
+    //             }
+    //         });
+    // };
+    //
+    // useEffect(() => {
+    //     fetchData();
+    // }, []);
 
     return (
         <section className="text-center bg-LightBlue py-10">

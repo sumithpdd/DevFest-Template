@@ -1,5 +1,5 @@
 import React from 'react';
-import SpeakerProfiles from '../components/speakers';
+//import SpeakerProfiles from '../components/speakers';
 
 const Speakers = () => (
     <>
