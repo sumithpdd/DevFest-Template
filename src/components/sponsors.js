@@ -9,7 +9,7 @@ import GDSCLogo from '../assets/sponsors/GDSC-Logo.png';
 import GDGAcademyLogo from '../assets/sponsors/GDGAcademy-logo.png';
 import FlutterLNDLogo from '../assets/sponsors/Flutter-Logo.png'
 import ChatGDGLogo from '../assets/sponsors/chatgdg.png'
-
+import ZencoreLogo from '../assets/sponsors/zencore-dot_high-res.png'
 const SponsorLogos = () => (
 
     <div className='text-center my-20'>
@@ -26,6 +26,14 @@ const SponsorLogos = () => (
             <div className='flex w-full h-full justify-center'>
                 <a href="https://bumble.com/">
                     <img src={BumbleLogo} alt="CodeMagic Logo" width="600px"  className="object-contain h-48"></img>
+                </a>
+            </div>
+        </section>
+        <section className='my-20'>
+            <h2 className='my-10 font-semibold'>Bronze</h2>
+            <div className='flex w-full h-full px-10 justify-center'>
+                <a href="https://zencore.dev/">
+                    <img src={ZencoreLogo} alt="Zencore"  width="600px" height="10rem" className="object-contain"></img>
                 </a>
             </div>
         </section>
