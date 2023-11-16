@@ -15,6 +15,8 @@ import ScrollToTop from "./components/scrolltotop.js";
 import SessionDetails from "./components/sessions";
 import PrivacyPolicy from './pages/privacy-policy.js';
 import MobileApp from  './pages/app.js';
+import FeaturedSpeakers from "./pages/featured-speakers";
+import FeaturedSessions from "./pages/featured-sessions";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/speakers" element={<Speakers />} />
+                <Route path="/featuredSpeakers" element={<FeaturedSpeakers />} />
+                <Route path="/featuredSessions" element={<FeaturedSessions />} />
                 <Route path="/sponsors" element={<Sponsors />} />
                 <Route path="/schedule" element={<Schedule />} />
                 <Route path="/sessions" element={<SessionDetails />} />
