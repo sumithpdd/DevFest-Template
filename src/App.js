@@ -27,8 +27,8 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/speakers" element={<Speakers />} />
-                <Route path="/testspeakers" element={<FeaturedSpeakers />} />
-                <Route path="/testsessions" element={<FeaturedSessions />} />
+                <Route path="/featuredSpeakers" element={<FeaturedSpeakers />} />
+                <Route path="/featuredSessions" element={<FeaturedSessions />} />
                 <Route path="/sponsors" element={<Sponsors />} />
                 <Route path="/schedule" element={<Schedule />} />
                 <Route path="/sessions" element={<SessionDetails />} />
