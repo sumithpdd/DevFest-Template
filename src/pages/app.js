@@ -5,7 +5,7 @@ const MobileApp = () => (
         <h1 className='text-center my-10'>Download Our App</h1>
 
         <p className='text-center'>
-            Please Download our app using one of the two links
+            Please Download our app using one of the two linkss
         </p>
     </div>
 );
