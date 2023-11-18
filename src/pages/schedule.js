@@ -1,14 +1,13 @@
 import React from 'react';
 
-const Schedule = () => (
+const Schedule = () => {
+    return (
+        <section className="text-center bg-LightBlue py-10">
+            <iframe src={"https://sessionize.com/api/v2/2a1c3kbf/view/GridSmart"} title={"something"} width="100%" height="800px" />
 
-    <div className='w-11/12 mx-auto my-5 p-5'>
-        <h1 className='text-center'>DevFest {process.env.REACT_APP_CHAPTER_NAME} Sessions</h1>
-        <div 
-        src="https://sessionize.com/api/v2/fbau7brs/view/GridSmart">            
-        </div>
-    </div>
-   
-);
+
+        </section>
+    );
+};
 
 export default Schedule;

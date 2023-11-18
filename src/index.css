@@ -41,6 +41,14 @@
         @apply shadow-lg;    /* Shadow to make it stand out */
         @apply rounded-md;   /* Rounded corners for a smoother look */
     }
+    .iframe-component {
+        @apply h-[800px]; /* This sets the height to 800 pixels */
+    }
+    .store-logo {
+        height: 60px; /* or any other fixed height */
+        width: auto; /* maintain the aspect ratio */
+        object-fit: contain; /* ensure the image is scaled correctly */
+    }
     .talk-pill {
         @apply px-5;        /* Increase horizontal padding */
         @apply py-2;        /* Vertical padding */
