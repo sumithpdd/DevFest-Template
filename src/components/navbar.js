@@ -5,13 +5,13 @@ const Navbar = () => (
     <div>
     <div >
         <ul className="hidden lg:flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0">
-            <li>
+            {/* <li>
                 <Link to='/app' className='text-white'>Download App</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
                 <Link to="/" className='text-white'>Home</Link> 
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
                 <Link to="/speakers" className='text-white'>Speakers</Link>
             </li>
             <li>
@@ -31,7 +31,7 @@ const Navbar = () => (
             </li>
             <li>
                <a href='https://devfestlondon-pics.vercel.app/' className='text-white'>Photos</a>
-            </li>
+            </li> */}
         </ul>
     </div>
 </div> 

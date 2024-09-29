@@ -24,7 +24,7 @@ function App() {
             <ScrollToTop>
               <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/speakers" element={<Speakers />} />
+                {/* <Route path="/speakers" element={<Speakers />} />
                 <Route path="/sponsors" element={<Sponsors />} />
                 <Route path="/schedule" element={<Schedule />} />
                 <Route path="/sessions" element={<SessionDetails />} />
@@ -33,7 +33,7 @@ function App() {
                 <Route path="/faq" element={<FAQ />} /> 
                 <Route path='/photos' element={<PhotoAlbum/>} />
                 <Route path="/volunteer" element={<Volunteer />} />
-                <Route path="/app" element={<MobileApp />} />
+                <Route path="/app" element={<MobileApp />} /> */}
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />   
               </Routes>
             </ScrollToTop>

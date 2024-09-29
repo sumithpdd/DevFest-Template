@@ -8,12 +8,12 @@ import MobileApp from "./app";
 
 const Home = () => (
   <div>
-    <MobileApp/>
+    {/* <MobileApp/> */}
     <Hero />
     {/*<About />*/}
     {/*<SpeakerProfiles />*/}
-    <LocationSection />
-    <SponsorLogos />
+    {/* <LocationSection />
+    <SponsorLogos /> */}
   </div>
   
 )
