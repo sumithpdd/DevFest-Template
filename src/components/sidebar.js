@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { slide as Menu } from "react-burger-menu";
 import { MdClose, MdMenu } from "react-icons/md";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 
 var styles = {
