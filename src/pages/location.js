@@ -5,7 +5,6 @@ const Location = () => (
         <>
         <LocationSection/>
         </>
- 
 );
 
 export default Location;

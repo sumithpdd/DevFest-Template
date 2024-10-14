@@ -4,9 +4,12 @@ const Sessions = () => {
     const [sessions, setSessions] = useState([]);
 
     const fetchData = () => {
-        fetch('https://sessionize.com/api/v2/fvji6esg/view/Sessions')
+        console.log("called sessionize")
+        fetch('https://sessionize.com/api/v2/yiohzo64/view/Sessions')
             .then(response => response.json())
             .then(data => {
+                console.log("data",data)
+
                 if (data && data[0] && data[0].sessions) {
                     setSessions(data[0].sessions);
                 }

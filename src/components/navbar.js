@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => (
     <div>
@@ -8,23 +8,23 @@ const Navbar = () => (
             {/* <li>
                 <Link to='/app' className='text-white'>Download App</Link>
             </li> */}
-            {/* <li>
+            <li>
                 <Link to="/" className='text-white'>Home</Link> 
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
                 <Link to="/speakers" className='text-white'>Speakers</Link>
             </li>
             <li>
                 <Link to='/sessions' className='text-white'>Sessions</Link>
             </li>
             <li>
+                <Link to='/location' className='text-white'>Location</Link> 
+            </li>
+           {/*  <li>
                 <Link to='/sponsors' className='text-white'>Sponsors</Link> 
             </li>
             <li>
                 <Link to='/schedule' className='text-white'>Schedule</Link>
-            </li>
-            <li>
-                <Link to='/location' className='text-white'>Location</Link> 
             </li>
             <li>
                 <Link to='/code-of-conduct' className='text-white'>Code of Conduct</Link> 
