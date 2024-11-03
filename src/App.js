@@ -14,7 +14,7 @@ import Policy from './pages/code-conduct-policy.js';
 import ScrollToTop from "./components/scrolltotop.js";
 import SessionDetails from "./components/sessions";
 import PrivacyPolicy from './pages/privacy-policy.js';
-// import MobileApp from  './pages/app.js';
+import MobileApp from  './pages/app.js';
 
 function App() {
   return (
@@ -29,14 +29,15 @@ function App() {
                 <Route path="/location" element={<Location />} />
                 <Route path="/sponsors" element={<Sponsors />} />
                 <Route path="/code-of-conduct" element={<Policy />} />
+                <Route path="/sponsors" element={<Sponsors />} />
+                <Route path="/app" element={<MobileApp />} />
 
                 {/* 
-                <Route path="/sponsors" element={<Sponsors />} />
                 <Route path="/schedule" element={<Schedule />} />
                 <Route path="/faq" element={<FAQ />} /> 
                 <Route path='/photos' element={<PhotoAlbum/>} />
                 <Route path="/volunteer" element={<Volunteer />} />
-                <Route path="/app" element={<MobileApp />} /> */}
+                 */}
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />   
               </Routes>
             </ScrollToTop>
