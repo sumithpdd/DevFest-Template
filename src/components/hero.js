@@ -1,5 +1,5 @@
 import React from 'react';
-import gif from '../assets/2024_Save_the_date.gif';
+import gif from '../assets/Devfest_London_2024_sold_out.gif';
 
 const Hero = () => (
  
@@ -15,7 +15,7 @@ const Hero = () => (
             <p className='sm:px-5 sm:text-lg'>More info about the speakers and venue is coming in a few days!!!</p>
 
             <div className='hidden lg:block'>
-           <a href="https://www.eventbrite.com/e/devfest-london-2024-tickets-952825616067" className="text-white bg-Red500 hover:bg-Red500 hover:text-white rounded-full text-md px-6 py-4 mx-2">Register</a>
+           {/* <a href="https://www.eventbrite.com/e/devfest-london-2024-tickets-952825616067" className="text-white bg-Red500 hover:bg-Red500 hover:text-white rounded-full text-md px-6 py-4 mx-2">Register</a> */}
           </div> 
             {/*<div className='my-10'>*/}
             {/*        <a href={process.env.REACT_APP_DEVFEST_REGISTRATION_URL} className='text-white bg-Red500 hover:text-white rounded-full text-md px-6 py-4'>Register</a> */}
