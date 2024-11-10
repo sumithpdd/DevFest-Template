@@ -9,7 +9,7 @@ const Header = () => (
     
         <nav className='flex justify-between items-center w-11/12 mx-auto py-3'>
             <div className='w-64'>
-                <a href="https://gdg.community.dev/">
+                <a href="/">
                     <img src={logo} className=" h-13 sm:h-20 p-4 sm:p-0"  width="600px" alt="DevFest Logo" />
                 </a>
             </div>
