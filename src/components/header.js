@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/DevFest-2024-Logo.png';
+import logo from '../assets/new_logo.svg';
 import HamburgerMenu from './hamburger.js';
 import Navbar from './navbar.js';
 
@@ -10,7 +10,7 @@ const Header = () => (
         <nav className='flex justify-between items-center w-11/12 mx-auto py-3'>
             <div className='w-64'>
                 <a href="https://gdg.community.dev/">
-                    <img src={logo} className=" h-13 sm:h-20 p-4 sm:p-0" alt="DevFest Logo" />
+                    <img src={logo} className=" h-13 sm:h-20 p-4 sm:p-0"  width="600px" alt="DevFest Logo" />
                 </a>
             </div>
             <div>
