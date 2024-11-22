@@ -5,7 +5,7 @@ const Sessions = () => {
 
     const fetchData = () => {
         console.log("called sessionize")
-        fetch('https://sessionize.com/api/v2/yiohzo64/view/Sessions')
+        fetch('https://sessionize.com/api/v2/p2cwoiyr/view/Sessions')
             .then(response => response.json())
             .then(data => {
                 console.log("data",data)
