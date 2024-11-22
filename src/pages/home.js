@@ -12,8 +12,8 @@ const Home = () => (
     <Hero />
     {/*<About />*/}
     <SpeakerProfiles />
-     {/* <LocationSection />
-   <SponsorLogos /> */}
+     <LocationSection />
+   <SponsorLogos />
   </div>
   
 )

@@ -11,7 +11,7 @@ const Footer = () => (
             <div className=''>
                 <h3>About GDG {process.env.REACT_APP_CHAPTER_NAME}</h3>
                 <p>
-                We work together to bring technologists and developers from Scotland to code, learn, have fun, and give back.
+                    GDG London and GDG Cloud London are groups of GDG chapters from around the city of London. We work together to bring technologists and developers from the London area to code, learn, have fun, and give back.
                     {/*{process.env.REACT_APP_CHAPTER_ABOUT} */}
                 </p>
                 <a href='https://gdg.community.dev/'>
@@ -62,9 +62,9 @@ const Footer = () => (
                     {/*<li>*/}
                     {/*    <Link to='/faq' className='text-white'>FAQ</Link> */}
                     {/*</li>*/}
-                    {/* <li>
+                    <li>
                         <Link to ='/volunteer' className='text-white'>Volunteer</Link>
-                    </li> */}
+                    </li>
                 </ul>
             </div>
         </div>

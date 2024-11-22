@@ -4,8 +4,8 @@ import Header from './components/header.js';
 import Footer from './components/footer.js';
 import Home from './pages/home.js';
 import Speakers from './pages/speakers.js';
-// import Sponsors from './pages/sponsors.js';
-// import Schedule from './pages/schedule.js'
+import Sponsors from './pages/sponsors.js';
+import Schedule from './pages/schedule.js'
 import Location from './pages/location.js'
 import Policy from './pages/code-conduct-policy.js';
 // import FAQ from './pages/faq.js';
@@ -14,7 +14,7 @@ import Policy from './pages/code-conduct-policy.js';
 import ScrollToTop from "./components/scrolltotop.js";
 import SessionDetails from "./components/sessions";
 import PrivacyPolicy from './pages/privacy-policy.js';
-// import MobileApp from  './pages/app.js';
+import MobileApp from  './pages/app.js';
 
 function App() {
   return (
@@ -27,10 +27,11 @@ function App() {
                 <Route path="/speakers" element={<Speakers />} />
                 <Route path="/sessions" element={<SessionDetails />} />
                 <Route path="/location" element={<Location />} />
+                <Route path="/sponsors" element={<Sponsors />} />
                 <Route path="/code-of-conduct" element={<Policy />} />
-                {/* <Route path="/sponsors" element={<Sponsors />} /> */}
-                {/* <Route path="/app" element={<MobileApp />} /> */}
-                {/* <Route path="/schedule" element={<Schedule />} /> */}
+                <Route path="/sponsors" element={<Sponsors />} />
+                <Route path="/app" element={<MobileApp />} />
+                <Route path="/schedule" element={<Schedule />} />
 
                 {/* 
                 <Route path="/faq" element={<FAQ />} /> 

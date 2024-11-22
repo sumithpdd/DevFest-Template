@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/new_logo1.svg';
+import logo from '../assets/new_logo.svg';
 import HamburgerMenu from './hamburger.js';
 import Navbar from './navbar.js';
 
