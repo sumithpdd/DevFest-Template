@@ -4,19 +4,22 @@ import Hero from '../components/hero.js';
 import SpeakerProfiles from '../components/speakers.js';
 import SponsorLogos from '../components/sponsors.js';
 import LocationSection from '../components/location.js';
+import About from "../components/about";
+import Speakers from "./speakers";
 // import MobileApp from "./app";
 
 const Home = () => (
-  <div>
-    {/* <MobileApp/> */}
-    <Hero />
-    {/*<About />*/}
-    <SpeakerProfiles />
-     <LocationSection />
-   <SponsorLogos />
-  </div>
-  
-)
+    <div>
+        {/* <MobileApp/> */}
+        <Hero/>
+        <Speakers/>
+        {/*<About/>*/}
+        {/*<SpeakerProfiles />*/}
+        {/* <LocationSection />*/}
+        {/*<SponsorLogos/>*/}
+    </div>
+
+);
    
 
 
