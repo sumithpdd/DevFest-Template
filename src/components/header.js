@@ -17,7 +17,7 @@ const Header = () => (
                 <Navbar />
             </div>
             <div className='hidden lg:block'>
-           {/* <a href="https://www.eventbrite.com/e/devfest-london-2024-tickets-952825616067" className="text-white bg-Red500 hover:bg-Red500 hover:text-white rounded-full text-md px-6 py-4 mx-2">Register</a> */}
+            <a href="https://www.eventbrite.com/e/devfest-london-2025-tickets-1513661063989?aff=oddtdtcreator" className="text-white bg-Red500 hover:bg-Red500 hover:text-white rounded-full text-md px-6 py-4 mx-2">Register</a>
           </div> 
             <div className=''>
                 <HamburgerMenu />
