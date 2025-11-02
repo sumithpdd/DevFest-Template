@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { FaGlobe, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import BioModal from './modal';
 
 
