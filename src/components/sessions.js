@@ -21,34 +21,57 @@ const Sessions = () => {
     }, []);
 
     return (
-        <section className="text-center bg-LightBlue py-10">
-            <h2 className="text-center">Sessions</h2>
-            <div className='w-11/12 mx-auto'>
-                {sessions.length > 0 && sessions.map((session, idx) => (
-                    <div className='session-component my-10 p-5' key={idx}>
-                        <h3 className='mb-3'>{session.title}</h3>
-                        {session.speakers && session.speakers.length > 0 && (
-                            <p className='font-semibold'>
-                                Speakers: {session.speakers.map((speaker, speakerIdx) => (
-                                <span key={speakerIdx}>
-                                        {speaker.name}{speakerIdx < session.speakers.length - 1 ? ', ' : ''}
-                                    </span>
-                            ))}
-                            </p>
-                        )}
-                        <p className='mb-3'>{session.description}</p>
-                        {session.categories.map(category =>
-                            category.categoryItems.map((item, itemIdx) => {
-                                const pillClass = item.name.includes("Talk") ? "talk-pill" : "workshop-pill";
-                                return (
-                                    <span key={itemIdx} className={pillClass}>
-                                        {item.name.includes("Talk") ? "Talk" : "Workshop"}
-                                    </span>
-                                );
-                            })
-                        )}
+        <section className="text-center bg-white py-16">
+            <div className="w-11/12 mx-auto max-w-6xl">
+                <h2 className="text-4xl font-bold text-gray-900 mb-4">Conference Program</h2>
+                <p className="text-gray-600 text-lg mb-12">Explore our sessions, talks, and workshops</p>
+                
+                {sessions.length > 0 && (
+                    <div className="grid gap-6">
+                        {sessions.map((session, idx) => (
+                            <div 
+                                className='bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-DFBlue transition-all hover:shadow-lg text-left' 
+                                key={idx}
+                            >
+                                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
+                                    <div className="flex-1">
+                                        <h3 className='text-xl font-bold text-gray-900 mb-2'>{session.title}</h3>
+                                        {session.speakers && session.speakers.length > 0 && (
+                                            <div className='flex flex-wrap gap-2'>
+                                                {session.speakers.map((speaker, speakerIdx) => (
+                                                    <span key={speakerIdx} className="text-DFBlue font-semibold">
+                                                        {speaker.name}
+                                                        {speakerIdx < session.speakers.length - 1 ? ', ' : ''}
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        )}
+                                    </div>
+                                    <div className="flex gap-2 flex-wrap">
+                                        {session.categories.map(category =>
+                                            category.categoryItems.map((item, itemIdx) => {
+                                                const isTalk = item.name.includes("Talk");
+                                                return (
+                                                    <span 
+                                                        key={itemIdx} 
+                                                        className={`px-4 py-2 rounded-full text-white font-semibold text-sm ${
+                                                            isTalk 
+                                                                ? 'bg-DFBlue' 
+                                                                : 'bg-DFGreen'
+                                                        }`}
+                                                    >
+                                                        {isTalk ? 'Talk' : 'Workshop'}
+                                                    </span>
+                                                );
+                                            })
+                                        )}
+                                    </div>
+                                </div>
+                                <p className='text-gray-700 leading-relaxed'>{session.description}</p>
+                            </div>
+                        ))}
                     </div>
-                ))}
+                )}
             </div>
         </section>
     );

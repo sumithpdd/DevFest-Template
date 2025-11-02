@@ -12,15 +12,16 @@ var styles = {
       top: '0'
     },
     bmMenu: {
-      background: 'rgba(66,133,244,0.98)',
+      background: 'linear-gradient(135deg, #3b82f6 0%, #22c55e 100%)',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em',
+      border: '2px solid #000'
     }
     
   }
   
 const HamburgerIcon = () => (
-    <div className='text-white text-4xl'>
+    <div className='text-black text-4xl'>
         <MdMenu />
     </div>
 );
@@ -51,10 +52,10 @@ const Sidebar = () => {
                 </div>
                 <ul className='text-right'>
                     {/*<li className='my-5'><NavLink onClick={() => handleCloseMenu()} to="/" className='text-white'>Home</NavLink> </li> */}
-                    {/*<li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/schedule' className='text-white'>Schedule</NavLink></li>*/}
+                    <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/schedule' className='text-white'>Schedule</NavLink></li>
                      <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to="/speakers" className='text-white'>Speakers</NavLink> </li>
                      <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/sessions' className='text-white'>Sessions</NavLink> </li>
-                    <li className='my-5 text-white'><a href="https://www.eventbrite.com/e/devfest-london-2025-tickets-1513661063989?aff=oddtdtcreator">Register</a></li>
+                    <li className='my-5 text-white'><a href={process.env.REACT_APP_REGISTRATION_URL || "https://www.eventbrite.com/e/devfest-london-2025-tickets-1513661063989?aff=oddtdtcreator"}>Register</a></li>
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/location' className='text-white my-2 flex-row'>Location</NavLink> </li>
                     {/*<li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/sponsors' className='text-white'>Sponsors</NavLink> </li>*/}
                     {/*<li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/app' className='text-white'>Download App</NavLink></li>*/}

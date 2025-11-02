@@ -8,17 +8,17 @@ const Navbar = () => (
             {/*<li>*/}
             {/*    <Link to="/" className='text-white'>Home</Link> */}
             {/*</li>*/}
-            {/*<li>*/}
-            {/*    <Link to='/schedule' className='text-white'>Schedule</Link>*/}
-            {/*</li>*/}
             <li>
-                <Link to="/speakers" className='text-white'>Speakers</Link>
+                <Link to='/schedule' className='text-black hover:text-DFBlue font-semibold'>Schedule</Link>
             </li>
             <li>
-                <Link to='/sessions' className='text-white'>Sessions</Link>
+                <Link to="/speakers" className='text-black hover:text-DFBlue font-semibold'>Speakers</Link>
             </li>
             <li>
-                <Link to='/location' className='text-white'>Location</Link>
+                <Link to='/sessions' className='text-black hover:text-DFBlue font-semibold'>Sessions</Link>
+            </li>
+            <li>
+                <Link to='/location' className='text-black hover:text-DFGreen font-semibold'>Location</Link>
             </li>
             {/*<li>*/}
             {/*    <Link to='/sponsors' className='text-white'>Sponsors</Link> */}
@@ -28,7 +28,7 @@ const Navbar = () => (
             {/*</li> */}
             {/* */}
             <li>
-                <Link to='/code-of-conduct' className='text-white'>Code of Conduct</Link>
+                <Link to='/code-of-conduct' className='text-black hover:text-DFBlue font-semibold'>Code of Conduct</Link>
             </li>
             {/*<li>*/}
             {/*   <a href='https://devfestlondon-pics.vercel.app/' className='text-white'>Photos</a>*/}

@@ -13,6 +13,10 @@
 @layer base {
     html {
         @apply text-Grey900;
+        @apply bg-DFBackground;
+    }
+    body {
+        @apply bg-DFBackground;
     }
     h1 {
         @apply text-4xl;
@@ -29,10 +33,19 @@
         @apply my-2;
     }
     a {
-        @apply hover:text-LightBlue;
+        @apply hover:text-DFBlue transition-colors;
     }
     p {
         @apply my-5;
+    }
+    /* DevFest theme accent styles */
+    .devfest-accent {
+        @apply border-2 border-black rounded-lg;
+        box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 1);
+    }
+    .devfest-card {
+        @apply bg-white border-2 border-black rounded-lg p-6;
+        box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
     }
     /* New Styles for the Session Component */
     .session-component {

@@ -20,7 +20,19 @@ module.exports = {
         'Green500': '#34a853',
         'Grey200': '#e8eaed',
         'Grey900': '#202124',
-        'LightBlue': '#BBDEFB'
+        'LightBlue': '#BBDEFB',
+        // DevFest 2025 Theme Colors
+        'DFBlue': '#3b82f6', // Primary blue
+        'DFLightBlue': '#7dd3fc', // Light blue (location badge)
+        'DFSkyBlue': '#60a5fa', // Sky blue accent
+        'DFGreen': '#22c55e', // Primary green
+        'DFLightGreen': '#86efac', // Light green
+        'DFTeal': '#2dd4bf', // Teal accent
+        'DFPink': '#f472b6', // Reduced pink
+        'DFLightPink': '#fce7f3', // Very light pink
+        'DFYellow': '#fbbf24', // Amber yellow
+        'DFBackground': '#f8fafc', // Light gray-blue background
+        'DFBlueAccent': '#3b82f6' // Blue accent
       }
     },
   },

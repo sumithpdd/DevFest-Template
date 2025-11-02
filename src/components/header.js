@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from '../assets/new_logo.svg';
+import logo from '../assets/Devfest_London_2025.png';
 import HamburgerMenu from './hamburger.js';
 import Navbar from './navbar.js';
+import TicketButton from './ticket-button';
 
 const Header = () => (
  
-    <header className="bg-Grey900 py-1 top-0 sticky z-10">
+    <header className="bg-white border-b-2 border-black py-1 top-0 sticky z-10 shadow-lg">
     
         <nav className='flex justify-between items-center w-11/12 mx-auto py-3'>
             <div className='w-64'>
@@ -17,8 +18,11 @@ const Header = () => (
                 <Navbar />
             </div>
             <div className='hidden lg:block'>
-            <a href="https://www.eventbrite.com/e/devfest-london-2025-tickets-1513661063989?aff=oddtdtcreator" className="text-white bg-Red500 hover:bg-Red500 hover:text-white rounded-full text-md px-6 py-4 mx-2">Register</a>
-          </div> 
+                <TicketButton 
+                    href={process.env.REACT_APP_REGISTRATION_URL || "https://www.eventbrite.com/e/devfest-london-2025-tickets-1513661063989?aff=oddtdtcreator"}
+                    compact={true}
+                />
+            </div> 
             <div className=''>
                 <HamburgerMenu />
             </div>

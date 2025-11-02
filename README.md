@@ -1,7 +1,34 @@
 
-# DevFest 2022 Website Template
+# DevFest 2025 London Website Template
 
-Are you looking for a website template for your GDG DevFest 2022? Feel free to use this one!
+> Are you looking for a website template for your GDG DevFest? Feel free to use this one!
+
+## 📚 Documentation
+
+Complete documentation for developers:
+
+- **[Getting Started Guide](./docs/GETTING_STARTED.md)** - Installation and setup
+- **[Page Templates Guide](./docs/PAGE_TEMPLATES.md)** - Understanding page structure
+- **[Components Documentation](./docs/COMPONENTS.md)** - Component reference
+- **[Environment Variables](./docs/ENVIRONMENT_VARIABLES.md)** - Configuration guide
+
+## 🚀 Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/devfest-template.git
+cd devfest-template
+
+# 2. Install dependencies
+npm install
+
+# 3. Configure environment
+cp .env.example .env
+# Edit .env with your event details
+
+# 4. Start development server
+npm start
+```
 
 This website was made with React and Tailwind CSS. The primary font is Google Sans (included). We followed the brand color guidelines recommended by GDG and all of our graphics are from the GDG DevFest brand guidelines.
 
@@ -9,11 +36,35 @@ We used Netlify for hosting because it is easy and free. If you also use Netlify
 
 We are managing our speakers through Sessionize https://sessionize.com/. Sessionize has an API to pull in your speaker bios and speaker sessions. This is how we pull in the data for the speakers. We have not yet included a feature to pull in the sessions or schedule data, but we will. Make a pull request if you want to add this feature!  
 
+## Configuration
+
+### Environment Variables
+
+Create a `.env` file in the root directory. See [Environment Variables Guide](./docs/ENVIRONMENT_VARIABLES.md) for complete documentation.
+
+**Quick setup:**
+```bash
+# Copy example file
+cp .env.example .env
+
+# Edit .env with your values
+```
+
+**Essential variables to configure:**
+- Event name, date, and description
+- Venue information
+- Registration URL (Eventbrite)
+- Social media links
+- Sessionize API endpoints
+
+For detailed configuration, see [Environment Variables Documentation](./docs/ENVIRONMENT_VARIABLES.md).
+
 ## How to Clone This Project
 
 1. Open your terminal and type $ git clone {the url of this repo}
 2. cd into the new folder and type $ npm install
-3. Run the React project from your terminal with $ npm start
+3. Create a `.env` file with your configuration (see above)
+4. Run the React project from your terminal with $ npm start
    
 
 ## React Dependencies

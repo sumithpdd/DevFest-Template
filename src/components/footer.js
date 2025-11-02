@@ -5,7 +5,7 @@ import gdg_logo from '../assets/gdg.png';
 
 const Footer = () => (
 
-    <footer className='bg-Grey900 text-white p-10 '>
+    <footer className='bg-gradient-to-b from-Grey900 to-black text-white p-10 border-t-4' style={{ borderTopColor: '#3b82f6' }}>
        
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 w-11/12 mx-auto'>
             <div className=''>
